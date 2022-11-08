@@ -3,7 +3,7 @@ function init(){
   function updateText() {
 	  var userInput = document.getElementById('entryinput').value;
 	  document.getElementById("textoutput").innerText = userInput;
-	  alert(Michael Szewczyk: " + userInput);
+	  alert("Michael Szewczyk: " + userInput);
   }
   
   var button = document.getElementById("entrybutton");
